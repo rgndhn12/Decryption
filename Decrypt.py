@@ -16,6 +16,9 @@ for i in range (len(user_input)):
         the_output += 'e'
 
 #   if #, substitute it to i
+    elif user_input[i] == '#':
+        the_output += 'i'
+        
 #   if +, substitute it to o
 #   if !, substitute it to u
     
