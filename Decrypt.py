@@ -45,4 +45,8 @@ for i in range (len(user_input)):
         the_output += user_input[i]
 
 # display the output
+time.sleep(1)
+the_decryption = ' Decrypting the string...'
+print(pyfiglet.figlet_format(the_decryption,font="digital"))
+time.sleep(2)
 print ('The string\'s decryption is >>>',the_output)
