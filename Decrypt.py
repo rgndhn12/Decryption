@@ -24,10 +24,11 @@ for i in range (len(user_input)):
         the_output += 'o'
         
 #   if !, substitute it to u
-    
-    
+    elif user_input[i] == '!':
+        the_output += 'u'
     
     else:
         the_output += user_input[i]
+        
 # display the output
 print ('The string\'s decryption is >>>',the_output)
