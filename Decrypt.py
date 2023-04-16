@@ -1,5 +1,19 @@
 # Dahan, Regine Fae M. (BSCPE 1-5) DECRYPTION
 
+#introduction
+import pyfiglet
+import time
+
+the_intro ='Starting...'
+print(pyfiglet.figlet_format(the_intro,font="digital"))
+time.sleep(3)
+print('Hello! This program is entitled DECRYPTION! It will accept a\nstring as encrypted text, then the program will decrypt it.')
+time.sleep(2)
+
+now_begin ='Let\'s start'
+print(pyfiglet.figlet_format(now_begin,font="bubble"))
+time.sleep (2)
+
 # ask the user for input
 user_input = input (' Type your string >>> ')
 the_output = ''
@@ -29,6 +43,6 @@ for i in range (len(user_input)):
     
     else:
         the_output += user_input[i]
-        
+
 # display the output
 print ('The string\'s decryption is >>>',the_output)
